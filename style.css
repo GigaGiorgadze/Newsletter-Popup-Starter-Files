@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('Assets/Background.png');
+    background-size: cover;
+    
+}
+.main{
+    background-color: white;
+    width: 400px;
+    margin: 20vh auto;
+    height: 450px;
+    border-radius: 15px;
+}
+.top{
+    background-color: #2355F2;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    background-image: url('Assets/Pattern.png');
+    background-size: cover;
+    background-position: center;
+}
+.top h1{
+    width: 65%;
+}
+.bot{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 5%;
+    text-align: center;
+    box-sizing: border-box;
+}
+form{
+    width: 100%;
+}
+form input:first-of-type{
+    width: 73%;
+    height: 40px;
+    box-sizing: border-box;
+}
+form input:last-of-type{
+    width: 25%;
+    height: 40px;
+    background-color: #2355F2;
+    border: none;
+    color: white;
+    outline: none;
+}
+.bot>span{
+    color: lightgray;
+    align-self: flex-start;
+    margin-top: 2%;
+}
+.person{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 3%;    
+}
+h4{
+    margin: 0;
+}
+.recive{
+    color: gray;
+}
+.review{
+    color: gray;
+}
+@media screen and (max-width:600px) {
+    .main{
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+    .top{
+        border-radius: 0;
+    }
+}
